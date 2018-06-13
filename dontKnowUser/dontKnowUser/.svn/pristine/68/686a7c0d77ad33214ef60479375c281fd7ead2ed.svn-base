@@ -1,0 +1,61 @@
+.topSearch{
+  padding: 25rpx;
+  background-color: #34AAFF;
+  
+}
+.searchs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textAddress{
+  background-color: white;
+  width: 75%;
+  height: 35px;
+}
+.submitSc{
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  margin-left: 20px;
+  line-height: 35px;
+}
+.nowText{
+  padding: 10px; 
+}
+.myText{
+  padding: 10px; 
+  display: flex;
+  justify-content: space-between;
+}
+.myAddress{
+  display: flex;
+  margin: 10px;
+  height: 54px;
+  border: 1rpx solid  #EEEEEE;
+  justify-content: space-between;
+  align-items: center;
+}
+.changeAddress{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.upDataAddre{
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+.deleteAddre{
+  width: 80px;
+  height: 40px;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+.setAddress{
+   display: flex;
+}

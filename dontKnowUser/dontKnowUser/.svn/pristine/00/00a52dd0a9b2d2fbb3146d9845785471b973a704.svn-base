@@ -1,0 +1,49 @@
+.container{
+  padding: 10px;
+ 
+  
+}
+.containt{
+  display: flex;
+   border-bottom: 1rpx solid #EEEEEE;
+   padding: 5px;
+
+}
+.right{
+  margin-left: 10px;
+  direction: colum;
+  justify-content: center;
+  
+}
+.rightItem{
+  display: flex;
+  height: 33.3px;
+  align-items: center;
+}
+.texts{
+  font-size: 14px;
+}
+.items{
+  display: flex;
+  height:40px;
+  align-items: center;
+   border-bottom: 1rpx solid #EEEEEE;
+}
+.center_img{
+  width: 20rpx;
+  height: 30rpx;
+  margin-right: 20px;
+}
+
+
+
+
+.btn{
+  border: 1rpx solid #EEEEEE;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  justify-content: center;
+}

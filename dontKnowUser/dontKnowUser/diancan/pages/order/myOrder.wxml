@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='containt'>
+    <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+    <view class='right'>
+      <view class='rightItem'>
+        <view style='width:70px;' class='texts'>订单编号：</view>
+        <view class='texts'>1234567</view>
+      </view>
+
+       <view class='rightItem'>
+        <view style='width:70px;' class='texts'>米饭</view>
+        <view class='texts'>2018年2月8日8点8分</view>
+      </view>
+
+        <view class='rightItem'>
+        <view style='width:70px;' class='texts'>8元</view>
+        <view class='texts btn' bindtap='incoices'>发票申请</view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

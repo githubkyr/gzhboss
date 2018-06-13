@@ -1,0 +1,31 @@
+<view class='container'>
+
+  <view class='containt'>
+    <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+    <view class='right'>
+      <view class='rightItem'>
+        <view  class='texts'>某某餐厅</view>
+     <view class='texts' style='margin-left:5px'>营业中</view>
+        <view class='texts'  style='margin-left:5px'>门店详情</view>
+      </view>
+
+      <view class='rightItem'>
+        <view style='' class='texts'>西安市某某地几号</view>
+       
+        <view class='texts'  style='margin-left:10px'>1千米</view>
+      </view>
+
+
+    </view>
+     <view  style='margin-left:10px;'>
+       <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+      </view>
+
+  </view>
+
+  <button class='btneat' bindtap='goMenus' style='margin-top:10px' type='defaut'>进入菜单</button>
+  <view class=' font-size: 12px;'  style='margin-top:10px'>其他餐厅:</view>
+   <button class='btneat' bindtap='toeat' style='margin-top:10px' type='defaut'>附近餐厅1</button>
+    <button class='btneat' bindtap='toeat' style='margin-top:10px' type='defaut'>附近餐厅2</button>
+</view>

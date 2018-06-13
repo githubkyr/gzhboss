@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class='inputText'>
+    <textarea style='width:100%' placeholder='口味偏好限制50字'placeholder-style='font-size:15px;' maxlength='50' type="text" />
+  </view>
+  <view class='title'>快捷标签</view>
+
+  <view class='title bord'>不吃辣</view>
+
+</view>

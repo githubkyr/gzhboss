@@ -1,0 +1,109 @@
+<view class='container'>
+  <view class='logs_center'>
+    <view class='logs_centerimg'>
+      <image src='../../../resource/images/shouhuodizhi@2x.png' class='center_map' style='height:50rpx;'></image>
+      <view class='address'> 张三家</view>
+    </view>
+
+  </view>
+  <!--送达时间-->
+  <view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="23:01" bindchange="bindTimeChange">
+      <view class="picker">
+        送达时间: {{time}}
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <view>小猪猪餐厅</view>
+    <view style='flex:1'></view>
+    <view style='margin-right:10px'>小名配送</view>
+  </view>
+  <!--订单内容-->
+  <!--<view class="sectionTitle ">
+    <view>我的订单</view>
+
+  </view>-->
+
+  <view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+  <!--<view class="sectionTitle ">
+    <view>他人订单</view>
+
+  </view>-->
+
+  <view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+
+  <!--<view class="sectionTitle ">
+    <view>订单总额：10元</view>
+    <view style='margin-left:20px;'>我消费：5元</view>
+  </view>-->
+
+  <view>
+    <view class="sectioncontain">
+      <view>某某优惠</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>某某优惠</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+
+  <view class='items' bindtap='goMark'>
+    <view class='texts' style='margin-left:20px;'>备注：</view>
+    <view style='flex:1'></view>
+    <view style='margin-left:20px; margin-right: 20px;' class='texts mine'>口味偏好等要求</view>
+    <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+  </view>
+
+
+  <view class="sectionTitle ">
+    <view>以优惠：10元</view>
+  </view>
+
+  <view style='100px;'></view>
+
+  <view class="sectionTitle "  style='display:flex;position:fixed;bottom: 10px;' >
+    <view  class='btn'>点击分享最高优惠xx元</view>
+
+    <view style='flex:1'></view>
+
+    <view style='margin-right:10px;'>当前合计：10元</view>
+    <view class='btn'>去支付</view>
+
+  </view>
+
+</view>

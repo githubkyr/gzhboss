@@ -1,0 +1,99 @@
+/* diancan/pages/order/submitOrder.wxss */
+.container{
+  padding: 10px;
+  
+}
+.logs_center{
+  height: 89rpx;
+  /*border-bottom: 1rpx solid #EEEEEE;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logs_centerimg{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.center_map{
+  width: 40rpx;
+  height: 40rpx;
+}
+.address{
+  margin-left: 10px;
+  font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+  width: 200px;
+   height: 89rpx;
+   align-items: center;
+   display: flex
+  
+}
+.sectioncontain{
+width: 100%;
+  height: 80rpx;
+  font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+  align-items: center;
+   display: flex;
+   margin-top: 10px;
+   
+
+}
+.section{
+  width: 100%;
+  height: 80rpx;
+  font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+  align-items: center;
+   display: flex;
+   margin-top: 10px;
+}
+.sectionTitle{
+  width: 100%;
+  height: 80rpx;
+  font-size: 13px;
+  
+  align-items: center;
+   display: flex;
+   margin-top: 10px;
+}
+
+
+.items{
+  display: flex;
+  height:40px;
+  align-items: center;
+   border: 1rpx solid #EEEEEE;
+   margin-top: 30px;
+   justify-content: center;
+ 
+}
+.center_img{
+  width: 20rpx;
+  height: 30rpx;
+  margin-right: 20px;
+}
+.texts{
+  font-size: 14px;
+}
+
+.sectioncontain{
+width: 100%;
+  height: 80rpx;
+  font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+  align-items: center;
+   display: flex;
+   
+
+}
+.btn{
+   font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+   height: 80rpx;
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,0 +1,32 @@
+.container{
+  padding: 10px;
+  
+}
+.containt{
+  display: flex;
+   border: 1rpx solid #EEEEEE;
+   padding: 5px;
+
+}
+.right{
+  margin-left: 10px;
+  direction: colum;
+  justify-content: center;
+  
+}
+.rightItem{
+  display: flex;
+  height: 33.3px;
+  align-items: center;
+}
+.texts{
+  font-size: 14px;
+}
+.btn{
+  border: 1rpx solid #EEEEEE;
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

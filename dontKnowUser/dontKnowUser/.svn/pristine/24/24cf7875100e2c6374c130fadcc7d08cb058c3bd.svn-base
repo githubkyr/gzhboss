@@ -1,0 +1,93 @@
+<view class='container'>
+
+  <view class='head'>
+    <view class='activety texts'>活动信心</view>
+    <view class='rightbtn'>
+      <view bindtap="eatThing" class='texts headbtn'>
+        吃什么
+      </view>
+      <view bindtap="getAll" class='texts headbtn'>
+        一起点
+      </view>
+    </view>
+
+  </view>
+
+
+  <view class='menu' style='flex:1'>
+    <view class='menuLeft'>
+      <view wx:for="{{menus}}" wx:key="id">
+        <view class='leftBtn' data-id="{{item.id}}" bindtap="menuClick">{{item.text}}</view>
+
+      </view>
+
+    </view>
+    <view class='menuRight'>
+
+      <scroll-view scroll-y="true" style="height: 500px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+        <view wx:for="{{menuContain}}" wx:key="id">
+          <view id="{{item.id}}" class="scroll-view-item bc_green">{{item.text}}
+
+            <view class='containt'>
+              <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+              <view class='right'>
+                <view class='rightItem'>
+                  <view style='width:40px;' class='texts'>米饭</view>
+                  <view class='texts'></view>
+                </view>
+
+                <view class='rightItem'>
+                  <view style='width:40px;' class='texts'>简介</view>
+                  <view class='texts'></view>
+                </view>
+                <view class='rightItem'>
+                  <view style='width:40px;' class='texts'>2元</view>
+                  <view class='texts'></view>
+                </view>
+
+              </view>
+              <view class='jisuan'>
+                <view class='fuHao'>-</view>
+                <view style='margin-left:10px;margin-right:10px;' class='texts'>0</view>
+                <view class='fuHao'>+</view>
+              </view>
+
+
+              <view bindtap="menusClick" class='rightItem' style='margin-left:10px;'>
+                <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+              </view>
+
+            </view>
+
+
+          </view>
+
+        </view>
+
+
+
+
+      </scroll-view>
+
+
+    </view>
+
+  </view>
+
+
+
+  <view class='bottom'>
+
+    <view class='texts prices' style=''>价格xx元</view>
+
+    <view bindtap="submit"  class='texts bottomBtn'>
+      去付款xx起送
+    </view>
+
+  </view>
+
+
+
+
+</view>

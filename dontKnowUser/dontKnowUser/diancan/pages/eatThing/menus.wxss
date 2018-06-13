@@ -1,0 +1,166 @@
+.container{
+  padding: 10px;
+  
+}
+.inputText{
+  height: 100px;
+  width: 100%;
+   border: 1rpx solid #EEEEEE;
+}
+.texts{
+  font-size: 14px;
+}
+
+.containt{
+  display: flex;
+   border: 1rpx solid #EEEEEE;
+   padding: 5px;
+   margin-top: 30px;
+   align-items: center
+
+}
+.right{
+  margin-left: 10px;
+  direction: colum;
+  justify-content: center;
+  
+}
+.rightItem{
+  display: flex;
+  height: 33.3px;
+ 
+}
+.jisuan{
+   display: flex;
+    align-items: center;
+}
+.fuHao{
+  font-size: 18px;
+  border: 1rpx solid #EEEEEE;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+.itemBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn{
+    font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+   height: 80rpx;
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.symbol{
+  font-size:18px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1rpx solid #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+.number{
+  margin-left:10px;
+  margin-right:10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+
+}
+.center_img{
+  width: 20rpx;
+  height: 30rpx;
+  margin-right: 20px;
+}
+
+.head{
+  display: flex;
+  height: 82px;
+}
+.activety{
+  width: 60%;
+  border: 1rpx solid #EEEEEE;
+}
+.rightbtn{
+  width: 40%;
+}
+.headbtn{
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx solid #EEEEEE;
+}
+
+.menu{
+  display: flex;
+}
+
+.menuLeft{
+  width: 20%;
+
+}
+.menuRight{
+  width: 80%;
+}
+
+.leftBtn{
+  height: 40px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx solid #EEEEEE;
+  font-size: 14px;
+}
+.bottom{
+  display: flex;
+  position:fixed;bottom: 10px;right:10px;
+  background-color: silver;
+  width: 100%
+}
+.prices{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height:40px;
+   padding: 10px
+  
+}
+.bottomBtn
+  {
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx solid #EEEEEE;
+  padding: 10px
+
+}
+/*测试*/
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 200px;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}

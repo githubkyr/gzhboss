@@ -1,0 +1,36 @@
+<view class='container'>
+
+
+<view>
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+</view>
+
+
+  <view class='containt'>
+    <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+    <view class='right'>
+      <view class='rightItem'>
+        <view class='texts'>某某餐厅</view>
+        <view class='texts' style='margin-left:5px'>营业中</view>
+        <view class='texts' style='margin-left:5px'>门店详情</view>
+      </view>
+
+      <view class='rightItem'>
+        <view style='' class='texts'>西安市某某地几号</view>
+
+        <view class='texts' style='margin-left:10px'>1千米</view>
+      </view>
+
+
+    </view>
+    <view style='margin-left:10px;'>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </view>
+
+  </view>
+
+  <button class='btneat' bindtap='goMenus' style='margin-top:10px' type='defaut'>去餐厅</button>
+
+</view>

@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "diancan/pages/home/home",
+    "diancan/pages/wode/wode",
+    "diancan/pages/coupons/mine_coupons",
+    "diancan/pages/integral/integral",
+    "diancan/pages/seller/seller",
+    "diancan/pages/coupons/shop_coupons",
+    "diancan/pages/coupons/coupons_details",
+    "diancan/pages/order/order",
+    "diancan/pages/pay/pay",
+    "diancan/pages/list/list",
+    "diancan/pages/qrCode/qrCode",
+    "diancan/pages/make/makeMethod",
+    "diancan/pages/order/submitOrder",
+    "diancan/pages/order/myOrder",
+    "diancan/pages/order/invoices",
+    "diancan/pages/eatThing/eat",
+    "diancan/pages/eatThing/mark",
+    "diancan/pages/eatThing/friendTold",
+    "diancan/pages/eatThing/friendToldResult",
+    "diancan/pages/eatThing/menu",
+    "diancan/pages/eatThing/menus",
+    "diancan/pages/eatThing/chooseRestaurant",
+    "diancan/pages/eatThing/navigation",
+    "diancan/pages/song/song",
+    "diancan/pages/take/launchTake",
+    "diancan/pages/take/collectTake",
+    "diancan/pages/take/submitOrder",
+    "diancan/pages/take/placeOrder",
+    "diancan/pages/take/collageDetail",
+    "diancan/pages/order/allOrder",
+    "diancan/pages/zhizhao/zhizhao",
+    "diancan/pages/address/address",
+    "diancan/pages/address/newAddress",
+    "diancan/pages/address/addAddress",
+    "diancan/pages/home/phone",
+    "diancan/pages/order/allOrderDetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "不知道只会餐厅",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#41B0FF",
+    "backgroundColor": "#fff",
+    "color": "#333",
+    "list": [
+      {
+        "pagePath": "diancan/pages/home/home",
+        "text": "首页",
+        "iconPath": "resource/images/shouye@2x.png",
+        "selectedIconPath": "resource/images/shouye-fill@2x.png"
+      },
+      {
+        "pagePath": "diancan/pages/order/allOrder",
+        "text": "订单",
+        "iconPath": "resource/images/dingdan@2x.png",
+        "selectedIconPath": "resource/images/dingdan-fill@2x.png"
+      },
+      {
+        "pagePath": "diancan/pages/wode/wode",
+        "text": "我的",
+        "iconPath": "resource/images/wode@2x.png",
+        "selectedIconPath": "resource/images/wode-fill@2x.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}

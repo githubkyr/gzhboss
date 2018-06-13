@@ -1,0 +1,21 @@
+.container{
+  padding: 10px;
+  
+}
+.inputText{
+  height: 100px;
+  width: 100%;
+   border: 1rpx solid #EEEEEE;
+}
+.title{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.bord{
+  width: 60px;
+  padding: 10px;
+  border: 1rpx solid #EEEEEE;
+  display: flex;
+  align-items: center
+
+}

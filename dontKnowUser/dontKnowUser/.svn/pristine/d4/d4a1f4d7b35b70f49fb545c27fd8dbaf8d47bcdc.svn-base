@@ -1,0 +1,61 @@
+<view class='container'>
+        <view class='banner'> 
+            <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+              <block wx:for="{{imgUrls}}" wx:key="*this">
+                <swiper-item>
+                  <image src="{{item}}" class="slide-image" width="100%" height="200px"/>
+                </swiper-item>
+              </block>
+            </swiper>
+         </view>
+         <view class='itemHead'> 心得</view>
+            <view class='itemText'> 我是你写的一段心得 </view>
+         <view class='itemHead'> 养生必备</view>
+         <view>
+            <view class='itemText'> 排骨：补肾 </view>
+
+         </view>
+         <view class='itemHead'> 材料</view>
+         <view>
+            <view class='itemText'> 排骨：10kg </view>
+            <view class='itemText'> 盐：2g </view>
+
+         </view>
+         <view class='itemHead'> 商家提供食材</view>
+          <view>
+            <view class='itemText'> 排骨：10g </view>
+             <view class='itemText' style='color:red;'>其他食材自备 </view>
+         </view>
+
+         <view class='itemHead'> 做法</view>
+          <view>
+            <view class='itemText'> 1.洗菜 </view>
+            <view style='margin-left:30px;'>
+             <image style='height:150px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"  width="100%" height="100px"/>
+             </view>
+
+             <view class='itemText'> 2.切菜 </view>
+             <view style='margin-left:30px;'>
+             <image  style='height:150px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"  width="100%" height="100px"/>
+             </view>
+         </view>
+
+         <view class='itemHead'> 小贴士</view>
+          <view class='itemText'> 少放盐 </view>
+          <image  style='height:150px;width:100%' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"  width="100%" height="100px"/>
+
+            <view class='btn'>
+            
+             <view class='btnShare' bindtap='makeMthod' >分享</view>
+            
+            </view>
+
+
+        
+
+
+         
+         
+
+</view>

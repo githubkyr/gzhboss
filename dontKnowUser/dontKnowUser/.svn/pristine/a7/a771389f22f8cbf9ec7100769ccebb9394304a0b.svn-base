@@ -1,0 +1,100 @@
+<view class='container'>
+  <view class='head'>
+
+    <view class='address'>西安</view>
+    <view class='input'>
+      <input class='inputText' placeholder="搜索餐厅" /> </view>
+
+  </view>
+
+
+  <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">附近餐厅(2)</view>
+    <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">收藏的餐厅(0)</view>
+
+
+  </view>
+
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 80}}px" bindchange="bindChange">
+    <swiper-item>
+      <view class='contain'>
+
+        <view class='item'>
+          <view class='left'>
+            <radio/>
+          </view>
+          <view class='center'>
+            <view class=' top'>
+              <view class='addressText'>高新万达</view>
+              <view style='width:100px;'></view>
+              <view class='addressText'>1.08公里</view>
+            </view>
+
+
+            <view class='bottom addressText'>陕西省高新区</view>
+
+
+          </view>
+          <view class='right'> ☆</view>
+
+        </view>
+
+
+      </view>
+    </swiper-item>
+
+    <swiper-item>
+      <view class='contain'>
+        <view class='item'>
+          <view class='left'>
+            <radio/>
+          </view>
+          <view class='center'>
+            <view class=' top'>
+              <view class='addressText'>高新万达</view>
+              <view style='width:100px;'></view>
+              <view class='addressText'>1.08公里</view>
+            </view>
+
+
+            <view class='bottom addressText'>陕西省高新区</view>
+
+
+          </view>
+          <view class='right'> ☆</view>
+
+        </view>
+
+      </view>
+    </swiper-item>
+
+  </swiper>
+
+  <view class='tekeTime'>
+  取餐时间
+  </view>
+
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+
+<radio-group class="radio-group" bindchange="radioChanges">
+  <label class="radio" wx:for="{{itemss}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    
+  </label>
+</radio-group>
+<view style='font-size:10px;'>提示：根据当天时间完成的支付时间，你指定的取餐时间可能会顺延 </view>
+<view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="23:01" bindchange="bindTimeChange">
+      <view class="picker">
+        送达时间: {{time}}
+      </view>
+    </picker>
+  </view>
+
+  <button class='btneat' bindtap='goMenus' style='margin-top:10px' type='defaut'>进入菜单</button>
+
+</view>

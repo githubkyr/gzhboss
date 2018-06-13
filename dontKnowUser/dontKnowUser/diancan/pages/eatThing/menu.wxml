@@ -1,0 +1,38 @@
+<view class='container'>
+
+
+  <view class='containt'>
+    <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+    <view class='right'>
+      <view class='rightItem'>
+        <view style='width:70px;' class='texts'>米饭</view>
+        <view class='texts'></view>
+      </view>
+
+      <view class='rightItem'>
+        <view style='width:70px;' class='texts'>简介</view>
+        <view class='texts'>2元</view>
+      </view>
+
+    
+    </view>
+
+     <view class='rightItem' style='margin-left:50px;'>
+       <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+      </view>
+
+  </view>
+ <!-- <view style='display:flex;position:fixed;bottom: 10px;right:20px' bindtap='goFriendToldResult'>
+    <view class='itemBtn' >
+      <view style='flex:1'></view>
+      <view class='btn' style='margin-left:50px;margin-top:20px;'>下单</view>
+
+    </view>
+
+
+
+  </view>-->
+
+
+</view>

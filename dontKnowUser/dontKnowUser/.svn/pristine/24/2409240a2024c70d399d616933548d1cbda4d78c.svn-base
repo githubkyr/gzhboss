@@ -1,0 +1,56 @@
+.container{
+  padding: 10px;
+}
+.item{
+  border:  1rpx solid #EEEEEE;
+  padding: 10px;
+
+}
+.itemTop{
+  display: flex;
+}
+.itemRadius{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ border:  1rpx solid #EEEEEE;
+}
+.name{
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.texts{
+   font-size: 15px;
+   height: 25px;
+   display: flex;
+  align-items: center;
+}
+.itemBottom{
+  height:40px;
+  display: flex;
+  margin-top: 10px;
+ justify-content: space-around
+}
+.bord{
+  border: 1rpx solid #EEEEEE;
+  padding: 5px;
+ border-radius:5px; 
+}
+.order{
+  padding: 10px;
+  border: 1rpx solid #EEEEEE;
+  margin-top: 10px;
+}
+.orderItem{
+  display: flex
+}
+.names{
+
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}

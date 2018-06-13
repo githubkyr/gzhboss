@@ -1,0 +1,22 @@
+.input_style{
+  border: 1px solid #EEEEEE;
+  margin-left: 20px;
+  width: 220px;
+  height: 30px;
+}
+.yanzhenma{
+  display: flex;
+  margin: 20px;
+}
+.yanzhen{
+  width: 150px;
+  height: 40px;
+}
+.yanzhenButton{
+  height: 40px;
+  margin-left: 20px;
+}
+.view_style{
+  margin: 20px;
+   display: flex;
+}

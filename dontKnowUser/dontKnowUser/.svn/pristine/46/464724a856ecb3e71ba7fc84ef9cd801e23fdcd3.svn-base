@@ -1,0 +1,7 @@
+<!--pages/seller/seller.wxml-->
+<!--员工修改自取商品余量-->
+<view class='font'>
+  <view class='seller3'>
+    <image class='seller_img' src='../images/chengxu.png'></image>
+  </view>
+</view>

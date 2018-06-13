@@ -1,0 +1,42 @@
+<!-- 当前位置 -->
+<view class='topSearch'>
+  <form>
+    <view class='searchs'>
+      <input class='textAddress'></input>
+      <button class='submitSc'>搜索</button>
+    </view>
+  </form>
+</view>
+<!-- -->
+<view class='mainAddress'>
+  <view>
+    <view class='nowText'><text>当前地址</text></view>
+    <view class='myAddress'>
+      <view style='margin-left: 10px'><text>自动获取de地址</text></view> 
+      <view>
+        <icon type='success'></icon>
+        重新定位
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view class='myText'>
+      <text>我的地址</text>
+      <view bindtap='addAddress'>新增地址</view>
+    </view>
+    <scroll-view class="scroll-view_H" scroll-y='true' style="width: 100%">
+      <view  wx:for="{{addresslist}}"  wx:key="*this">
+        <view data-id="{{item.id}}" class='myAddress'>
+          <view><text>{{item.title}}</text></view> 
+          <view class='setAddress'>
+            <button class='upDataAddre' bindtap='setAddress'><text>编辑</text></button>
+            <button  class='deleteAddre'><text>删除</text></button>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  
+</view>

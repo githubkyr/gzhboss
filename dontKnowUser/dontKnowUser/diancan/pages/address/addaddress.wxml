@@ -1,0 +1,36 @@
+<form>
+  <view>
+      <view>
+        <view class='view_style'>
+          <text>收货人:</text>
+          <input class='input_style'></input>
+        </view>
+        <view class='yanzhenma'>
+          <input class='input_style,yanzhen'></input>
+          <view class='yanzhenButton'><button>获取验证码</button></view>
+        </view>
+      </view>
+    
+      <view  class='view_style'>
+        <text>联系电话</text>
+        <input class='input_style'></input>
+      </view>
+
+      
+      <view class='view_style'>
+        <text>所在区域</text>
+        <input class='input_style'></input>
+      </view>
+
+      <view class='view_style'>
+        <text>详情地址</text>
+        <input class='input_style'></input>
+      </view>
+
+      <view class='view_style'>
+        <text>默认收货地址</text>
+        <switch></switch>
+      </view>
+  </view>
+  <button bindtap='sucAddress'>保存</button>
+</form>

@@ -1,0 +1,139 @@
+<view class="font">
+  <!--头部开始  -->
+  <view class='wode_header' style="background:{{color}}">
+  <view style='heads'>
+ 
+    <view class='wode_imgs'>
+      <image src='{{userInfo.avatarUrl}}' class='wode_imgs'></image>
+     <!-- <view class='wode_name'>
+        <view class='wode_name1'></view>
+         <view class='logs_user'>
+          <image src='../images/shouji.png' class='logs_tubiao'></image>
+          <view class='logs_tel'>15107187041</view>
+        </view> 
+      </view>-->
+    </view>
+     </view>
+    <view  style='color:black;width:80%'>
+    昵称：
+    {{userInfo.nickName}}
+    </view>
+  </view>
+  <!--头部结束 --> 
+
+  <view class='couponsPoints'> 
+    <view class='itemHeadleft' bindtap='integral'>
+        <view class='itemHight'>10分</view>
+        <view class='itemHight'>我的积分</view>
+    </view>
+     <view class='itemHeadRight' bindtap='youhui2'>
+        <view class='itemHight'>10个</view>
+        <view class='itemHight'>我的优惠券</view>
+    </view>
+
+  </view>
+
+  <!--我的钱包积分部分开始  -->
+  <!--<view class='wode_content'>
+    <view class='content_left' bindtap='fapiao'> 
+      <view class='content_left1'>
+        <image src='../../../resource/images/shouhuodizhi@2x.png' class='ticket' style='height:50rpx;'></image>
+      </view>
+      <view class='content_integral'>发票</view>
+    </view>
+    <view class='content_left' bindtap='youhui2'>
+      <view class='content_middle'>
+        <text class='content_font'>{{coupon+Vouchers}}</text>
+        <text class='content_coll'>个</text>
+      </view>
+      <view class='content_integral'>优惠</view>
+    </view>
+    <view class='content_left'>
+      <view class='content_right' bindtap='integral'>
+        <text class='content_font'>{{integral}}</text>
+        <text class='content_coll'>分</text>
+      </view>
+      <view class='content_integral'>积分</view>
+    </view>
+  </view>-->
+  <!--我的钱包积分部分结束  -->
+
+  <!-- 订单部分开始 -->
+  <view class='logs_order'>
+    <!--收货地址  -->
+    <view class='logs_center' bindtap='address'>
+      <view class='logs_centerimg'>
+        <image src='../../../resource/images/shouhuodizhi@2x.png' class='center_map' style='height:50rpx;'></image>
+        <view style=' margin-left: 10px;'>  收货地址</view>
+      </view>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </view>
+    <!--我的收藏  -->
+    <!-- <view class='logs_center'>
+      <view class='logs_centerimg'>
+        <image src='../images/huangsexingxing@3x.png' class='center_map'></image>
+        <view>我的收藏</view>
+      </view>
+      <image src='../images/Path@2x.png' class='center_img'></image>
+    </view> -->
+    <!--我的订单  -->
+    <!-- <view class='logs_center'>
+      <view class='logs_centerimg'>
+        <image class='center_map'></image>
+        <view>订单中心</view>
+      </view>
+      <image src='../images/Path@2x.png' class='center_img'></image>
+    </view> -->
+    <!--我的收藏  -->
+    <view class='logs_center'  bindtap='fapiao'>
+      <view class='logs_centerimg'>
+        <image src='../../../resource/images/youhuiquan@2x.png' class='center_map'></image>
+        <view style=' margin-left: 10px;'>发票</view>
+      </view>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </view>
+   <!--
+    <view class='logs_center' style='border:none;'  bindtap='zhizhao'>
+      <view class='logs_centerimg'>
+        <image src='../../../resource/images/quan@3x.png' class='center_map'></image>
+        <view style=' margin-left: 10px;'>食品安全档案</view>
+      </view>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </view>
+    -->
+  </view>
+  <view class='logs_seller' style='padding:0px;'>
+    <button class='logs_center' style="color:#333;font-size:28rpx;width:100%;background:white;border: none; " open-type='contact'>
+      <view class='logs_centerimg'>
+        <image src='../../../resource/images/kfxt.png' class='center_map' style='height:50rpx;'></image>
+        <view style=' margin-left: 10px;'>在线客服</view>
+      </view>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </button>
+  </view>
+  <!--订单部分结束  -->
+  <!--isSeller现为false，目前不在小程序添加该功能-->
+  <view class='logs_seller' wx:if="{{isSeller}}">
+    <view class='logs_center' style='border:none;' bindtap='seller'>
+      <view class='logs_centerimg'>
+        <image src='../../../resource/images/dianpu-fill@2x.png' class='center_map'></image>
+        <view>员工入口</view>
+      </view>
+      <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+    </view>
+  </view>
+
+  <!--——————————————尾部——————————————  -->
+  <view class="footer">
+    <!--
+    <view class="copyright" bindtap='tzxcx'>
+      <view class='copyright_logo'>
+        <image mode='aspectFill' src="{{url}}{{bqxx.bq_logo}}" class='copyright_img'></image>
+        <view class='copyright_text'>{{bqxx.bq_name}}</view>
+      </view>
+      <view class='copyright_txt'>{{bqxx.support}}</view>
+    </view>
+    -->
+    <text class='copyright_txt'>西安剀特宸餐饮管理有限公司</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class='container'>
+<view class='itme'>
+<view>手机号码：</view>
+<input class='phone' placeholder='请输入手机号码'/>
+<view class='getBtn'>获取验证码</view>
+</view>
+<view class='itme'>
+<view>验 证 码 ：</view>
+<input class='phone' placeholder='请输入验证码'/>
+
+</view>
+ <view class='btn'>确定</view>
+</view>

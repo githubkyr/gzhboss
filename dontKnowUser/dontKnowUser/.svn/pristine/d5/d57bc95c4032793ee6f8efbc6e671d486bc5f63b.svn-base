@@ -1,0 +1,59 @@
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">食堂</view>
+  <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">外卖</view>
+  <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">购食材</view>
+
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 80}}px" bindchange="bindChange">
+  <swiper-item>
+    <view class='contain'>
+
+
+
+      <view class='item'>
+        <view class='itemTop'>
+          <view class='itemRadius'></view>
+
+          <view class='name'>大菜名称</view>
+          <view style='flex:1'></view>
+
+          <view style='width:40%'>
+            <view class='texts'>订单状态</view>
+            <view class='texts'>￥ 10元</view>
+          </view>
+        </view>
+
+        <view class='itemBottom'>
+        <view class='texts bord' style='border-color:#09FF37'>查看详情</view>
+
+        <view class='texts bord'>继续拼单</view>
+         <view class='texts bord'>评论</view>
+          <view class='texts bord' style='border-color:#FFAB6E'>分享</view>
+           <view class='texts bord' style='border-color:#FF9BB6'>再来一单</view>
+        
+        </view>
+
+
+
+
+
+      </view>
+
+    </view>
+
+  </swiper-item>
+  <swiper-item>
+    <view class='contain'>
+
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view class='contain'>
+
+
+    </view>
+  </swiper-item>
+
+</swiper>

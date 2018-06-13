@@ -1,0 +1,34 @@
+.container{
+  padding: 10px;
+  
+}
+
+.texts{
+  font-size: 12px;
+}
+
+.containt{
+  display: flex;
+   border: 1rpx solid #EEEEEE;
+   padding: 5px;
+   margin-top: 30px;
+   align-items: center
+
+}
+.right{
+  margin-left: 10px;
+  direction: colum;
+  justify-content: center;
+  
+}
+.rightItem{
+  display: flex;
+  height: 50px;
+  align-items: center
+ 
+}
+.center_img{
+  width: 20rpx;
+  height: 30rpx;
+  margin-right: 20px;
+}

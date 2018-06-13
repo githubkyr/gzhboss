@@ -1,0 +1,50 @@
+<view class='container'>
+  <view>
+    <image style='height:150px;width:100%;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+  </view>
+  <view class='itemBtn'>
+    <view class='btn'>小吥帮你选</view>
+    <view class='btn' style='margin-left:50px'>好友帮我选</view>
+
+  </view>
+
+  <view class='items' bindtap='goMark'>
+    <view class='texts' style='margin-left:20px;'>备注：</view>
+    <view style='flex:1'></view>
+    <view style='margin-left:20px; margin-right: 20px;' class='texts mine'>口味偏好等要求</view>
+    <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+  </view>
+
+  <view class='items' bindtap='goFriendTold'>
+
+    <view style='flex:1'></view>
+    <view style='margin-left:20px; margin-right: 120px;' class='texts mine'>查看好友推荐</view>
+    <image src='../../../resource/images/Path@2x.png' class='center_img'></image>
+  </view>
+
+  <view class='containt'>
+    <image style='height:100px;width:130px;' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" width="130px" height="100px" />
+
+    <view class='right'>
+      <view class='rightItem'>
+        <view style='width:70px;' class='texts'>米饭</view>
+        <view class='texts'></view>
+      </view>
+
+      <view class='rightItem'>
+        <view style='width:70px;' class='texts'>简介</view>
+        <view class='texts'>8份</view>
+      </view>
+
+
+    </view>
+
+  </view>
+
+  <view class='itemBtn' style='border-top: 1rpx solid #EEEEEE;'>
+    <view style='flex:1'></view>
+    <view class='btn' style='margin-left:50px;margin-top:20px;'>去下单</view>
+
+  </view>
+
+</view>

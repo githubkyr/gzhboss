@@ -1,0 +1,97 @@
+<view class='container'>
+  <view class='logs_center'>
+    <view class='logs_centerimg'>
+      <image src='../../../resource/images/shouhuodizhi@2x.png' class='center_map' style='height:50rpx;'></image>
+      <view class='address'> 张三家</view>
+    </view>
+
+  </view>
+  <!--送达时间-->
+  <view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="23:01" bindchange="bindTimeChange">
+      <view class="picker">
+        送达时间: {{time}}
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <view>小猪猪餐厅</view>
+    <view style='flex:1'></view>
+    <view style='margin-right:10px'>小名配送</view>
+  </view>
+  <!--订单内容-->
+  <view class="sectionTitle ">
+    <view>我的订单</view>
+
+  </view>
+
+  <view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+  <view class="sectionTitle ">
+    <view>他人订单</view>
+
+  </view>
+
+  <view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>米饭</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+
+  <view class="sectionTitle ">
+    <view>订单总额：10元</view>
+    <view style='margin-left:20px;'>我消费：5元</view>
+  </view>
+  
+<view>
+    <view class="sectioncontain">
+      <view>某某优惠</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+
+    </view>
+    <view class="sectioncontain">
+      <view>某某优惠</view>
+      <view style='flex:1'></view>
+      <view style='width:70px'>10元</view>
+    </view>
+
+  </view>
+
+   <view class="sectionTitle ">
+    <view>优惠后：10元</view>
+  </view>
+
+<view class="sectionTitle ">
+    <view>你需要支付：10元</view>
+    <view style='flex:1'></view>
+
+    <view style='margin-right:10px;' class='btn'>提醒让人付</view>
+    <view class='btn'>去支付</view>
+    
+  </view>
+
+</view>

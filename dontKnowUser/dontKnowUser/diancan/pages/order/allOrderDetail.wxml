@@ -1,0 +1,44 @@
+<view class='container'>
+
+  <view class='item' bindtap='goAllOderDetail'>
+    <view class='itemTop'>
+     <!-- <view class='itemRadius'></view>
+
+      <view class='name'>大菜名称</view>
+      <view style='flex:1'></view>
+-->
+      <view style='width:40%'>
+        <view class='texts'>订单状态</view>
+        <view class='texts'></view>
+      </view>
+    </view>
+
+    <view class='itemBottom'>
+      <view class='texts bord' style='border-color:#09FF37'>查看详情</view>
+
+      <view class='texts bord'>继续拼单</view>
+      <view class='texts bord'>评论</view>
+      <view class='texts bord' style='border-color:#FFAB6E'>分享</view>
+      <view class='texts bord' style='border-color:#FF9BB6'>再来一单</view>
+
+    </view>
+
+
+
+
+
+  </view>
+
+  <view class='order'>
+    <view class='orderItem'>
+      <view class='names'>订单编号：</view>
+      <view class='names' style='margin-left:10px;'>12345</view>
+    </view>
+    <view class='orderItem'>
+      <view class='names'>订单时间：</view>
+      <view class='names' style='margin-left:10px;'>12345</view>
+    </view>
+  </view>
+
+
+</view>

@@ -1,0 +1,33 @@
+.container{
+  padding: 10px;
+  
+}
+.itme{
+  display:flex;
+  font-size: 14px;
+  margin-top: 10px
+   
+}
+.phone{
+  border: 1rpx solid #EEEEEE;
+}
+.btn{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  border: 1rpx solid #EEEEEE;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.getBtn{
+   border: 1rpx solid #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border-radius: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 10px;
+}

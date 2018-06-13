@@ -1,0 +1,60 @@
+.swiper-tab{ 
+  width: 100%; 
+  border-bottom: 2rpx solid #eeeeee; 
+  text-align: center; 
+  line-height: 80rpx;} 
+.swiper-tab-item{ font-size: 30rpx; 
+  display: inline-block; 
+  width: 50%; 
+  color: #666666; 
+} 
+.on{ color: #f10b2e; 
+  border-bottom: 5rpx solid #f10b2e;} 
+ 
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; } 
+.swiper-box view{ 
+  text-align: center; 
+} 
+.contain{
+ padding: 10px;
+}
+.search{
+ 
+  display: flex;
+  border: 1rpx solid #EEEEEE;
+}
+
+.searchInput{
+  width: 90%
+
+}
+.center_map{
+  width: 40rpx;
+  height: 40rpx;
+}
+.item{
+  display: flex;
+  border-bottom:  1rpx solid #EEEEEE;
+ 
+  align-items: center
+}
+.iteheight{
+  height: 60px;
+  font-size: 15px;
+}
+.child{
+  height: 30px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.itemRight{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  border:  1rpx solid #EEEEEE;
+}

@@ -1,0 +1,12 @@
+<view class='container'>
+  <view class='sectioncontain'>
+    <view>用餐方式：</view>
+    <view>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}" wx:key="id">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</view>

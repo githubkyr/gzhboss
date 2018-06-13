@@ -1,0 +1,4 @@
+<view class='zhizhao'>
+  <image class='img' src='{{imgUrls}}' bindtap='preImg'></image>
+  <view class='zhizhaoname'><text>营业执照</text></view>
+</view>

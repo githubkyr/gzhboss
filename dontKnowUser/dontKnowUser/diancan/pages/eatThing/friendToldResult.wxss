@@ -1,0 +1,75 @@
+.container{
+  padding: 10px;
+  
+}
+.inputText{
+  height: 100px;
+  width: 100%;
+   border: 1rpx solid #EEEEEE;
+}
+.texts{
+  font-size: 14px;
+}
+
+.containt{
+  display: flex;
+   border: 1rpx solid #EEEEEE;
+   padding: 5px;
+  
+   align-items: center
+
+}
+.right{
+  margin-left: 10px;
+  direction: colum;
+  justify-content: center;
+  
+}
+.rightItem{
+  display: flex;
+  height: 33.3px;
+  align-items: center;
+}
+.itemBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn{
+    font-size: 13px;
+  border: 1rpx solid #EEEEEE;
+   height: 80rpx;
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.symbol{
+  font-size:18px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1rpx solid #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+.number{
+  margin-left:10px;
+  margin-right:10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+
+}
+.prices{
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}

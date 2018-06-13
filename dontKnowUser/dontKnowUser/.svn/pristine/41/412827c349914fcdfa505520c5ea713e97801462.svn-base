@@ -1,0 +1,60 @@
+<view class='contain'>
+  <view class='logs_center'>
+    <view class='logs_centerimg'>
+      <image src='../../../resource/images/shouhuodizhi@2x.png' class='center_map' style='height:50rpx;'></image>
+      <view class='address'> 当前位置</view>
+      <view class='addressChange'>修改地址</view>
+    </view>
+
+  </view>
+
+  <view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="23:01" bindchange="bindTimeChange">
+      <view class="picker">
+        送达时间: {{time}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <picker mode="time" value="{{time}}" start="09:01" end="23:01" bindchange="bindTimeChangem">
+      <view class="picker">
+        拼单时间: {{timem}}分钟
+      </view>
+    </picker>
+  </view>
+
+  <view class='sectioncontain'>
+
+    <view>收货方式：</view>
+    <view>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}" wx:key="id">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <view class='sectioncontain'>
+
+    <view>付款方式：</view>
+    <view>
+      <radio-group class="radio-group" bindchange="radioChanges">
+        <label class="radio" wx:for="{{give}}" wx:key="id">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+
+  <view style='display:flex;position:fixed;bottom: 10px;right:20px' bindtap='goFriendToldResult'>
+    <view class='itemBtn'>
+      <view style='flex:1'></view>
+      <view class='btn' style='margin-left:50px;margin-top:20px;'>发起拼单</view>
+
+    </view>
+
+
+
+  </view>
+</view>
